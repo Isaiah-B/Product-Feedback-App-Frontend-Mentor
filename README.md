@@ -1,6 +1,6 @@
 # Product Feedback App
 
-![](preview.png)
+![](preview.jpg)
 
 
 ## Challenge

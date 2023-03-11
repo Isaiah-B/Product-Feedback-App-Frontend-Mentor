@@ -1,0 +1,35 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "airbnb",
+      "airbnb-typescript"
+  ],
+  "overrides": [
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "project": "./tsconfig.json"
+  },
+  "plugins": [
+      "react"
+  ],
+  "rules": {
+      "semi": ["error", "always"],
+      "quotes": ["warn", "single"],
+      "no-underscore-dangle": "off",
+      "linebreak-style": 0,
+      "no-unused-vars": "warn",
+      "import/prefer-default-export": "off",
+      "lines-between-class-members": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/require-default-props": "off",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/lines-between-class-members": "off"
+  },
+  "ignorePatterns": ["*css", "*svg"]
+}

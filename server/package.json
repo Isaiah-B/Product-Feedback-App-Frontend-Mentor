@@ -26,7 +26,8 @@
   },
   "scripts": {
     "dev": "nodemon",
-    "build": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "start": "npm run build",
     "importData": "ts-node src/dev/import-delete.ts --import",
     "deleteData": "ts-node src/dev/import-delete.ts --delete",
     "test": "echo \"Error: no test specified\" && exit 1"

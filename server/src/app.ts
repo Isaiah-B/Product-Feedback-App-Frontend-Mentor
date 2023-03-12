@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import morgan from 'morgan';
+import dotenv from 'dotenv';
 
 import errorController from './controllers/error-controller';
 
@@ -11,12 +11,15 @@ import authRouter from './routes/auth-router';
 
 import AppError from './utils/appError';
 
+dotenv.config();
+
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
 if (process.env.NODE_ENV === 'development') {
+  const morgan = require('morgan');
   app.use(morgan('dev'));
 }
 

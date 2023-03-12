@@ -25,7 +25,7 @@ Users should be able to:
 
 - React Typescript
 - React Router Dom 6
-- [RecoilJs](https://recoiljs.org/)
+- [RecoilJS](https://recoiljs.org/)
 - Express
 - MongoDB
 - Flexbox

@@ -7,7 +7,6 @@ import InputValidationWrapper from '../input-validation-wrapper/input-validation
 
 import { CurrentUserState, ModalState } from '../../recoil/store';
 import { createUser } from '../../service/user-service';
-import { ERROR_TYPES } from '../../types';
 
 import {
   SignupInput,

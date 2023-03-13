@@ -9,7 +9,6 @@ export const checkError = (err: unknown) => {
     if (!errType) return { error: 'Error has no type' };
 
     errType = errType.toLowerCase();
-    console.log(errType);
     switch (true) {
       case errType === 'resource not found':
         return { error: ERROR_TYPES.RESOURCE_NOT_FOUND };

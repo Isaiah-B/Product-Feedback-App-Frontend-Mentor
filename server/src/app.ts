@@ -23,8 +23,6 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-app.get('/', (req, res, next) => (res.send('hi :)')));
-
 app.use('/api/v1/feedback', feedbackRouter);
 app.use('/api/v1/comment', commentRouter);
 app.use('/api/v1/user', userRouter);

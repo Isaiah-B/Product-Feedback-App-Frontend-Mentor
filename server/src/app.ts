@@ -15,7 +15,9 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ 
+  origin: 'https://product-feedback-fm.netlify.app/'
+}));
 app.use(express.json());
 
 if (process.env.NODE_ENV === 'development') {

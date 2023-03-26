@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://www.frontendmentor.io/solutions/responsive-product-feedback-app-using-react-typescript-yHMs4mFeut)
+- [Live Site](https://product-feedback-fm.netlify.app/)
 
 ### Built with
 
